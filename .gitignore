@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Env
+.env
+*.env
+
+# Docker
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+
+.idea/
+.vscode/
+*.iml
+.venv
+
+# Caches
+.cache/
+.mypy_cache/
+pytest_cache/
+.pytest_cache/
