@@ -8,8 +8,8 @@
 
 ### 1. Клонировать репозиторий
 ```bash
-git clone https://github.com/your-repo/fastapi-yandexgpt.git
-cd fastapi-yandexgpt
+git clone https://github.com/art-z/llmapi.git
+cd llmapi
 ```
 ### 2. Создать файл окружения
 ```bash
