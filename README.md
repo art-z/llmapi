@@ -16,8 +16,8 @@ cd llmapi
 cp .env.example .env
 ```
 
-DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/postgres  
-YANDEX_API_KEY=api_ключ  
+DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/postgres<br>
+YANDEX_API_KEY=api_ключ<br>
 YANDEX_MODEL_URI=gpt://<ID_каталога>/yandexgpt-lite  
 
 ### 3. Запустить контейнеры
@@ -25,8 +25,8 @@ YANDEX_MODEL_URI=gpt://<ID_каталога>/yandexgpt-lite
 docker-compose up --build
 ```
 
-После запуска: 
-API доступен на http://localhost:8000  
+После запуска:<br>
+API доступен на http://localhost:8000<br>
 Swagger UI → http://localhost:8000/docs  
 
 
